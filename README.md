@@ -1,6 +1,6 @@
 # Ahmed Magdy Asker — Developer Portfolio
 
-A responsive portfolio for a Senior Flutter Developer and Mobile Team Lead. Built with React, TypeScript, Tailwind CSS, and Vinext, with a static export for GitHub Pages.
+A responsive portfolio for Ahmed Magdy, Mobile Engineer, based on the desktop, tablet, and mobile Figma designs. Built with React, TypeScript, Tailwind CSS, and Vinext, with a static export for GitHub Pages.
 
 ## Run locally
 
@@ -36,6 +36,8 @@ Every future push to `main` automatically rebuilds and deploys the site.
 
 - Main portfolio content: `app/page.tsx`
 - Visual design: `app/globals.css`
+- Mobile navigation: `components/mobile-navigation.tsx`
+- Downloaded official Figma assets: `public/figma/`
 - SEO and social metadata: `app/layout.tsx`
 - Downloadable CV: `public/Ahmed_Magdy_Asker_CV.pdf`
 - Social sharing image: `public/og.png`
@@ -46,3 +48,7 @@ Every future push to `main` automatically rebuilds and deploys the site.
 npm run lint
 npm run build
 ```
+
+The existing user-site deployment (`megzaaat.github.io`) uses the root base path. Figma imagery uses relative URLs and is included in the static export; Manrope is bundled by `next/font`. The Pages workflow deploys only pushes to `main`; feature branches do not deploy automatically.
+
+Design reference: https://www.figma.com/design/vD1LbaV43NkEhxuqlso3wX (desktop `3:138`, tablet `3:232`, mobile `3:324`). The contact and project links have at least 44px touch targets, which adds some vertical space compared with the Figma prototype.
