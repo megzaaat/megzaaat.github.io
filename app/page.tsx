@@ -283,11 +283,20 @@ export default function Home() {
       </section>
       <footer id="contact" className="contact inset">
         <p className="eyebrow">HAVE SOMETHING IN MIND?</p>
-        <h2>
-          Let’s build something
-          <br />
-          people love to use.
-        </h2>
+        <div className="contact-heading">
+          <h2>
+            Let’s build something
+            <br />
+            people love to use.
+          </h2>
+          <a
+            className="download-cv"
+            href="./Ahmed_Magdy_Asker_CV.pdf"
+            download="Ahmed_Magdy_Asker_CV.pdf"
+          >
+            Download CV
+          </a>
+        </div>
         <div className="contact-links">
           <a className="email" href="mailto:ahmedmagdyasker@gmail.com">
             ahmedmagdyasker@gmail.com
