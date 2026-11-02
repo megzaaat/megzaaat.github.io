@@ -421,6 +421,28 @@ h1 {
   flex-direction: column;
   gap: 24px;
 }
+.contact-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.download-cv {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 184px;
+  min-height: 52px;
+  border-radius: 999px;
+  background: #ff6820;
+  color: #fff;
+  font-size: 16px;
+}
+.download-cv:hover {
+  background: #e95713;
+  color: #fff;
+}
 .contact h2 {
   font-size: 64px;
   font-weight: 300;
@@ -667,6 +689,11 @@ h1 {
   }
   .contact {
     padding-block: 40px;
+    gap: 24px;
+  }
+  .contact-heading {
+    flex-direction: column;
+    align-items: flex-start;
     gap: 24px;
   }
   .contact h2 {
