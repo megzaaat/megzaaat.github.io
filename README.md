@@ -40,7 +40,7 @@ Every future push to `main` automatically rebuilds and deploys the site.
 - Downloaded official Figma assets: `public/figma/`
 - SEO and social metadata: `app/layout.tsx`
 - Downloadable CV: `public/Ahmed_Magdy_Asker_CV.pdf`
-- Social sharing image: `public/og.png`
+- Social sharing image: `public/og-mobile-engineer.png`
 
 ## Quality checks
 

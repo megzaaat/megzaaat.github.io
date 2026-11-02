@@ -36,10 +36,10 @@ export const metadata: Metadata = {
     siteName: 'Ahmed Magdy Asker',
     images: [
       {
-        url: '/og.png',
+        url: '/og-mobile-engineer.png',
         width: 1200,
         height: 630,
-        alt: 'Ahmed Magdy Asker — Mobile Engineer',
+        alt: 'Ahmed Magdy — Mobile Engineer. Mobile apps built with purpose, for iOS and Android.',
       },
     ],
   },
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     title: 'Ahmed Magdy Asker — Mobile Engineer',
     description:
       'iOS and Android engineering, clean architecture, native integrations, leadership, and production delivery.',
-    images: ['/og.png'],
+    images: ['/og-mobile-engineer.png'],
   },
   robots: { index: true, follow: true },
 };
