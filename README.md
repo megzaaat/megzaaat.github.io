@@ -32,6 +32,11 @@ The static website is generated in `dist/client/`.
 
 Every future push to `main` automatically rebuilds and deploys the site.
 
+**Keep the Pages source set to GitHub Actions.** “Deploy from a branch” publishes the source repository with Jekyll instead of the compiled `dist/client/` application. It can overwrite a successful workflow deployment with a README page. The deployment workflow checks this setting before building.
+
+If the site shows the README instead of the portfolio, select GitHub Actions in **Settings → Pages**, then rerun the latest “Deploy portfolio to GitHub Pages” workflow from the Actions tab. Verify that the homepage shows “MOBILE APPS.” and that the Download CV link works. A successful workflow alone does not prove the public site is serving the application.
+
+
 ## Update content
 
 - Main portfolio content: `app/page.tsx`
